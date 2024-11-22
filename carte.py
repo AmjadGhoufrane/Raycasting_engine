@@ -30,7 +30,6 @@ class Carte:
             for x, valeur in enumerate(ligne):
                 if valeur:
                     self.carte_dict[(x, y)] = valeur  # permet de cataloguer les positions de toutes les paroies
-        print(self.carte_dict)
 
     def draw(self):
         [pygame.draw.rect(self.jeu.fenetre, 'darkgray', ((pos[0] * 100)/5, (pos[1] * 100)/5, 20, 20), 2)

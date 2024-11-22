@@ -17,7 +17,7 @@ MOUSE_BORDER_RIGHT = xd - MOUSE_BORDER_LEFT
 
 COULEUR_SOL = (70,70,70)
 
-FOV = math.pi / 2  # FOV de 60°
+FOV = 2*math.pi / 3  # FOV de 120°
 D_FOV = FOV / 2
 RAYONS = xd // 2
 D_RAYONS = RAYONS // 2
