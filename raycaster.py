@@ -85,9 +85,9 @@ class raycasteur:
                 offset = (1 - x_hor) if sin_a > 0 else x_hor
 
             # anti fisheye
-            # profondeur *= math.cos(self.jeu.joueur.angle - angle_rayon)
+            #profondeur *= math.cos(self.jeu.joueur.angle - angle_rayon)
 
-            # projction aka fausse 3d
+            # projection aka fausse 3d
             hauteur_proj = DISTANCE_ECRAN / (profondeur + 0.0001)
 
             # resultat
